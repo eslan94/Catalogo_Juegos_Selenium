@@ -1,8 +1,0 @@
-{
-  "/api": {
-    "target": "http://api-juegos:8080",
-    "secure": false,
-    "changeOrigin": true,
-    "logLevel": "debug"
-  }
-}
