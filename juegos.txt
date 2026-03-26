@@ -1,0 +1,75 @@
+# PS5 - Top 5
+juego1 =
+    titulo= "Elden Ring", 
+    plataforma= "PS5", 
+    estrellas= 5, 
+    genero= "Action RPG", 
+    url_portada= "https://i.redd.it/bueqtztxmnj81.png"
+juego2 =
+    titulo= "God of War Ragnarök", 
+    plataforma= "PS5", 
+    estrellas= 5, 
+    genero= "Acción/Aventura", 
+    url_portada= "https=//image.api.playstation.com/vulcan/ap/rnd/202207/1210/664585858.png"
+juego3 =
+    titulo= "Spider-Man 2", 
+    plataforma= "PS5", 
+    estrellas= 5, 
+    genero= "Acción", 
+    url_portada= "https=//image.api.playstation.com/vulcan/ap/rnd/202306/1219/652525252.png"
+juego4 =
+    titulo= "Demon's Souls", 
+    plataforma= "PS5", 
+    estrellas= 4, 
+    genero= "Souls-like", 
+    url_portada= "https=//image.api.playstation.com/vulcan/ap/rnd/202009/2911/552525252.png"
+juego5 =
+    titulo= "Ratchet & Clank= Rift Apart", 
+    plataforma= "PS5", 
+    estrellas= 4, 
+    genero= "Plataformas", 
+    url_portada= "https=//image.api.playstation.com/vulcan/ap/rnd/202102/1117/442525252.png"
+
+# PC - Top 5
+juego6 =
+    titulo= "Baldur's Gate 3", 
+    plataforma= "PC", 
+    estrellas= 5, 
+    genero= "RPG", 
+    url_portada= "https=//shared.fastly.steamstatic.com/store_item_assets/steam/apps/1086940/header.jpg"
+juego7 =
+    titulo= "Cyberpunk 2077", 
+    plataforma= "PC", 
+    estrellas= 4, 
+    genero= "RPG/Shooter", 
+    url_portada= "https=//shared.fastly.steamstatic.com/store_item_assets/steam/apps/1091500/header.jpg"
+juego8 =
+    titulo= "Half-Life= Alyx", plataforma= "PC", estrellas= 5, genero= "VR/Shooter", url_portada= "https=//shared.fastly.steamstatic.com/store_item_assets/steam/apps/546560/header.jpg"
+juego9 =
+    titulo= "Red Dead Redemption 2", plataforma= "PC", estrellas= 5, genero= "Mundo Abierto", url_portada= "https=//shared.fastly.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg"
+juego10 =
+    titulo= "The Witcher 3", plataforma= "PC", estrellas= 5, genero= "RPG", url_portada= "https=//shared.fastly.steamstatic.com/store_item_assets/steam/apps/292030/header.jpg"
+
+# Xbox - Top 5
+juego11 =
+    titulo= "Forza Horizon 5", plataforma= "Xbox", estrellas= 5, genero= "Carreras", url_portada= "https=//store-images.s-microsoft.com/image/apps.456.145.png"
+juego12 =
+    titulo= "Halo Infinite", plataforma= "Xbox", estrellas= 5, genero= "Shooter", url_portada= "https=//i.ytimg.com/vi/EuuspAs7sUk/maxresdefault.jpg"
+juego13 =
+    titulo= "Starfield", plataforma= "Xbox", estrellas= 4, genero= "RPG Espacial", url_portada= "https=//store-images.s-microsoft.com/image/apps.789.012.png"
+juego14 =
+    titulo= "Gears 5", plataforma= "Xbox", estrellas= 4, genero= "Acción", url_portada= "https=//store-images.s-microsoft.com/image/apps.345.678.png"
+juego15 =
+    titulo= "Sea of Thieves", plataforma= "Xbox", estrellas= 4, genero= "Aventura Pirata", url_portada= "https=//store-images.s-microsoft.com/image/apps.901.234.png"
+
+# Switch - Top 5
+juego16 =
+    titulo= "Zelda= Tears of the Kingdom", plataforma= "Switch", estrellas= 5, genero= "Aventura", url_portada= "https=//assets.nintendo.com/image/upload/ar_16=9,c_lpad,w_1200/ncom/software/switch/70010000063064.jpg"
+juego17 =
+    titulo= "Super Mario Odyssey", plataforma= "Switch", estrellas= 5, genero= "Plataformas", url_portada= "https=//assets.nintendo.com/image/upload/ar_16=9,c_lpad,w_1200/ncom/software/switch/70010000000127.jpg"
+juego18 =
+    titulo= "Metroid Dread", plataforma= "Switch", estrellas= 5, genero= "Metroidvania", url_portada= "https=//assets.nintendo.com/image/upload/ar_16=9,c_lpad,w_1200/ncom/software/switch/70010000042930.jpg"
+juego19 =
+    titulo= "Mario Kart 8 Deluxe", plataforma= "Switch", estrellas= 5, genero= "Carreras", url_portada= "https=//assets.nintendo.com/image/upload/ar_16=9,c_lpad,w_1200/ncom/software/switch/70010000000126.jpg"
+juego20 =
+    titulo= "Animal Crossing= New Horizons", plataforma= "Switch", estrellas= 4, genero= "Simulación", url_portada= "https=//assets.nintendo.com/image/upload/ar_16=9,c_lpad,w_1200/ncom/software/switch/70010000027619.jpg"
