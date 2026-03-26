@@ -10,25 +10,25 @@ juego2 =
     plataforma= "PS5", 
     estrellas= 5, 
     genero= "Acción/Aventura", 
-    url_portada= "https=//image.api.playstation.com/vulcan/ap/rnd/202207/1210/664585858.png"
+    url_portada= "https://static.wikia.nocookie.net/godofwar/images/c/ca/Portada_God_of_War_Ragnarok.png/revision/latest?cb=20211008000423&path-prefix=es"
 juego3 =
     titulo= "Spider-Man 2", 
     plataforma= "PS5", 
     estrellas= 5, 
     genero= "Acción", 
-    url_portada= "https=//image.api.playstation.com/vulcan/ap/rnd/202306/1219/652525252.png"
+    url_portada= "https://image.api.playstation.com/vulcan/ap/rnd/202306/1219/60eca3ac155247e21850c7d075d01ebf0f3f5dbf19ccd2a1.jpg"
 juego4 =
     titulo= "Demon's Souls", 
     plataforma= "PS5", 
     estrellas= 4, 
     genero= "Souls-like", 
-    url_portada= "https=//image.api.playstation.com/vulcan/ap/rnd/202009/2911/552525252.png"
+    url_portada= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjAmtFdsuewOJOq4918URLB76kBfzTKc_Klg&s"
 juego5 =
     titulo= "Ratchet & Clank= Rift Apart", 
     plataforma= "PS5", 
     estrellas= 4, 
     genero= "Plataformas", 
-    url_portada= "https=//image.api.playstation.com/vulcan/ap/rnd/202102/1117/442525252.png"
+    url_portada= "https://cdn1.epicgames.com/offer/046aeb7098b94ac3961dad6c5dbe68c0/EGS_RatchetClankRiftApart_InsomniacGames_S2_1200x1600-52110dae5ab01644738dac07ac1ea796"
 
 # PC - Top 5
 juego6 =
