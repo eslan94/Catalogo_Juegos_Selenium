@@ -1,0 +1,9 @@
+#! streamlit-dashboard-service.yaml
+# Generated code, do not edit
+apiVersion: v1
+kind: Service
+metadata:
+    name: streamlit-dashboard-published
+    namespace: catalogo-juegos
+spec:
+    type: LoadBalancer

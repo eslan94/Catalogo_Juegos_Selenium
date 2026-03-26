@@ -1,0 +1,24 @@
+#! net-proyecto-network-policy.yaml
+# Generated code, do not edit
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+    name: net-proyecto-network-policy
+    namespace: catalogo-juegos
+spec:
+    podSelector:
+        matchLabels:
+            com.docker.compose.network.net-proyecto: "true"
+    policyTypes:
+        - Ingress
+        - Egress
+    ingress:
+        - from:
+            - podSelector:
+                matchLabels:
+                    com.docker.compose.network.net-proyecto: "true"
+    egress:
+        - to:
+            - podSelector:
+                matchLabels:
+                    com.docker.compose.network.net-proyecto: "true"

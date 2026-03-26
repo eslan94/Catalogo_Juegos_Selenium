@@ -1,0 +1,33 @@
+#! streamlit-dashboard-deployment.yaml
+# Generated code, do not edit
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: streamlit-dashboard
+    namespace: catalogo-juegos
+    labels:
+        com.docker.compose.project: catalogo_juegos
+        com.docker.compose.service: streamlit-dashboard
+spec:
+    replicas: 1
+    selector:
+        matchLabels:
+            com.docker.compose.project: catalogo_juegos
+            com.docker.compose.service: streamlit-dashboard
+    strategy:
+        type: Recreate
+    template:
+        metadata:
+            labels:
+                com.docker.compose.project: catalogo_juegos
+                com.docker.compose.service: streamlit-dashboard
+                com.docker.compose.network.net-proyecto: "true"
+        spec:
+            restartPolicy: Always
+            containers:
+                - name: python-dashboard
+                  image: catalogo_juegos-streamlit-dashboard
+                  imagePullPolicy: IfNotPresent
+                  ports:
+                    - name: streamlit--8501
+                      containerPort: 8501

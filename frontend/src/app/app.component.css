@@ -1,0 +1,194 @@
+/* =========================================
+   1. VARIABLES Y RESET PROFESIONAL
+   ========================================= */
+:host {
+  display: block;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: #f8fafc;
+  min-height: 100vh;
+}
+
+/* =========================================
+   2. LOGIN: EFECTO CRISTAL (GLASSMORPHISM)
+   ========================================= */
+.login-screen {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
+  padding: 20px;
+}
+
+.login-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 24px;
+  padding: 40px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  color: white;
+}
+
+/* =========================================
+   3. DASHBOARD: TOP BAR Y HERO BANNER
+   ========================================= */
+.top-bar {
+  background: #ffffff;
+  padding: 16px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e2e8f0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.hero-banner {
+  height: 350px;
+  background: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.8)), 
+              url('https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=2070') center/cover;
+  display: flex;
+  align-items: center;
+  padding: 0 60px;
+  color: white;
+}
+
+/* =========================================
+   4. FORMULARIO DE REGISTRO (INPUTS Y SELECTS)
+   ========================================= */
+.content {
+  max-width: 1200px;
+  margin: -50px auto 40px;
+  padding: 0 20px;
+  position: relative;
+}
+
+.action-card {
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 10px 25px -5px rgba(0,0,0,0.1);
+  border: 1px solid #e2e8f0;
+  margin-bottom: 40px;
+}
+
+.input-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+}
+
+.custom-select, input {
+  padding: 12px;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.btn-add {
+  background: #10b981;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+/* =========================================
+   5. GRID DE JUEGOS Y TARJETAS (ZOOM)
+   ========================================= */
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 30px;
+}
+
+.game-card {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  position: relative;
+}
+
+.game-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+  height: 320px;
+  overflow: hidden;
+  position: relative;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.game-card:hover .card-image img {
+  transform: scale(1.15);
+}
+
+/* BOTÓN ELIMINAR FLOTANTE */
+.btn-delete-card {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(220, 38, 38, 0.9);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.2s;
+  z-index: 20;
+}
+
+.game-card:hover .btn-delete-card {
+  opacity: 1;
+}
+
+.btn-delete-card:hover {
+  transform: scale(1.2);
+  background: #dc2626;
+}
+
+.platform-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(15, 23, 42, 0.8);
+  color: #3b82f6;
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+/* =========================================
+   6. SISTEMA DE ESTRELLAS DORADAS
+   ========================================= */
+.card-body { padding: 20px; }
+
+.rating-stars { display: flex; gap: 4px; align-items: center; }
+
+.star { font-size: 1.2rem; color: #cbd5e1; }
+
+.star.filled { color: #f59e0b; }
+
+.rating-number { margin-left: 8px; font-weight: 700; color: #475569; }

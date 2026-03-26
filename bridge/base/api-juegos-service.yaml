@@ -1,0 +1,23 @@
+# check if there is at least one published port
+
+#! api-juegos-service.yaml
+# Generated code, do not edit
+apiVersion: v1
+kind: Service
+metadata:
+    name: api-juegos-published
+    namespace: catalogo-juegos
+    labels:
+        com.docker.compose.project: catalogo_juegos
+        com.docker.compose.service: api-juegos
+spec:
+    selector:
+        com.docker.compose.project: catalogo_juegos
+        com.docker.compose.service: api-juegos
+    ports:
+        - name: api-juegos-8080
+          port: 8080
+          protocol: TCP
+          targetPort: api-juegos-8080
+
+# check if there is at least one published port

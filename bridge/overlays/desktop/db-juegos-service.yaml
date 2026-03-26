@@ -1,0 +1,11 @@
+#! db-juegos-service.yaml
+# Generated code, do not edit
+apiVersion: v1
+kind: Service
+metadata:
+    name: db-juegos-published
+    namespace: catalogo-juegos
+spec:
+    type: LoadBalancer
+
+# check if there is at least one published port

@@ -1,0 +1,18 @@
+#! db-juegos-postgres_data-persistentVolumeClaim.yaml
+# Generated code, do not edit
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+    name: db-juegos-postgres-data
+    namespace: catalogo-juegos
+    labels:
+        com.docker.compose.service: db-juegos
+        com.docker.compose.volume: postgres_data
+spec:
+    accessModes:
+        # TODO would need to check which services use this volume
+        - ReadWriteOnce
+    volumeMode: Filesystem
+    resources:
+        requests:
+            storage: 100Mi
